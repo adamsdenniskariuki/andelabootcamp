@@ -20,6 +20,6 @@ class PrimeTest(unittest.TestCase):
 	def test_empty_inputs(self):
 		self.assertEquals(gen_prime(""), 'Input cannot be empty')
 
-	# test output of function is a list
+	# test output is a list
 	def test_output(self):
 		self.assertIsInstance(gen_prime(20), list, 'The output must be a list')
