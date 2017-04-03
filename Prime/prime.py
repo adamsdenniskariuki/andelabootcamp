@@ -13,10 +13,13 @@ def gen_prime(n):
 
 	if (n == ""):
 		return "Input cannot be empty"
+	
 	elif (n < 0):
 		return "Input cannot be negative"
+	
 	elif (isinstance(n, int) == False):
 		return "Input must be an integer"
+	
 	else:
 
 		out = []
