@@ -7,7 +7,7 @@ def loan_calculator(Amount, Rate, Time):
 		return "invalid time"
 	else:
 		new_amount = float((Amount * Rate * Time) + Amount)
-	return new_amount
+		return new_amount
 
 print loan_calculator(100000, 12, 12)
 
