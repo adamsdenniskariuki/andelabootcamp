@@ -1,0 +1,1 @@
+The Asymptotic Analysis is O(N^2) because of the 2 for loops and each element is looped over twice in order to complete the calculation
