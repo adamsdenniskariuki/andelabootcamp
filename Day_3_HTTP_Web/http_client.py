@@ -11,7 +11,7 @@ def http_client(url):
         output = response.read()
         
     except urllib2.HTTPError as error:
-        return 'Error connecting to the API:', 
+        return 'Error connecting to the API:', error
         
     else:
         return output
