@@ -1,4 +1,4 @@
-# http client to consume a public weather API
+# http client to consume a public API
 
 import urllib2
 
