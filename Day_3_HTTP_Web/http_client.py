@@ -10,7 +10,7 @@ def http_client(url):
         response = urllib2.urlopen(request)
         output = response.read()
         
-    except urllib2.URLError, error:
+    except urllib2.HTTPError as error:
         return 'Error connecting to the weather API:', 
         
     else:
