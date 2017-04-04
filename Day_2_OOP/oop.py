@@ -8,7 +8,7 @@ class Employee(object):
 
 	def __init__(self, name, id_number, date_of_birth, gender, staff_number, department):
 		self.name = name
-		self.id = id_number
+		self.id_number = id_number
 		self.date_of_birth = date_of_birth
 		self.gender = gender
 		self.staff_number = staff_number
@@ -45,7 +45,7 @@ class Staff(Employee):
 		return 30 * 1000
 
 adams = Staff("Adams Kariuki", 20006257, "15-Jan-2000", "Male", 0124, "I.T.", "Alex Magana")
-print adams.annual_leave(), adams.supervisor, adams.name, adams.salary()
+print adams.annual_leave(), adams.supervisor, adams.name, adams.salary(), adams.id_number
 
 alex = Manager("Alex Magana", 32145746, "05-April-2005", "Male", 0100, "I.T.")
 print alex.annual_leave(), alex.department, alex.name, alex.salary()
