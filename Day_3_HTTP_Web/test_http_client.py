@@ -1,4 +1,7 @@
 import unittest
+import urllib2
+import json
+
 from http_client import http_client
 
 class HTTPClientTest(unittest.TestCase):
