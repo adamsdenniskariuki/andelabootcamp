@@ -1,18 +1,4 @@
-"""
-
-def http_client():
-  
-  import http.client
-  connection = http.client.HTTPConnection("www.python.org", 80)
-  connection.connect()
-  connection.request("GET", "/")
-  response = connection.getresponse()
-  print (response.status, response.reason, response.read())
-  connection.close()
-  
-http_client()
-
-"""
+# http client to consume a public weather API
 
 import urllib2
 
