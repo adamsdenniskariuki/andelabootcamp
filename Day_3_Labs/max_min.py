@@ -10,4 +10,4 @@ def find_max_min(l):
 	else:
 		return [min_num, max_num] 
 
-print find_max_min([4, 66, 6, 44, 7, 78, 8, 68, 2])
+print (find_max_min([4, 66, 6, 44, 7, 78, 8, 68, 2]))

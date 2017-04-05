@@ -57,8 +57,8 @@ class TestWordCounts(unittest.TestCase):
 
     def test_word_occurance7(self):
         self.assertDictEqual(
-            {"Hola!": 1, "Que?": 1, "tal?": 1, "What!": 1},
-            words('Hola! Que? tal? What!'),
+            {"¡Hola!": 1, "¿Qué": 1, "tal?": 1, "Привет!": 1},
+            words('¡Hola! ¿Qué tal? Привет!'),
             msg='should count international characters properly'
         )
 

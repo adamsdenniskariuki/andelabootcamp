@@ -11,7 +11,6 @@ def words(word):
 				count += 1
 		out[u] = count 
 
-	print list_of_words
 	return out
 
-print words("testing 1\t2 testing")
+print (words("testing 1\t2 testing"))
