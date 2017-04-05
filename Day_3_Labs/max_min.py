@@ -1,4 +1,7 @@
 def find_max_min(l):
+
+	if(isinstance(l, list) == False):
+		return "input must be a list"
 	
 	l.sort()
 
