@@ -1,0 +1,150 @@
+/*  Format header  */
+#header{
+	width: 100%;
+	vertical-align: top;
+	padding-top: 20px;
+}
+
+/*  Right header  */
+#header_right{
+	float: right;
+	margin-right: 20px;
+}
+
+/*  Right header links */
+#header #header_right a{
+	text-decoration: none;
+	margin-left: 15px;
+	color:#666;
+	
+}
+
+#right_header_link_4{
+	padding:0;
+}
+
+/*  Right header button*/
+#right_header_link_4{
+	background-color:#4387fd;
+	font-color: white;
+	border-radius: 3px;
+	padding: 7px 12px 7px 12px;
+	font-family: arial,sans-serif;
+	font-size:13px;
+	font-weight: bold;
+	color: white !important;
+}
+
+/* format content box */
+#content{
+	width: 100%;
+	position: fixed;
+    top: 37%;
+    left: 37%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+
+/* logo */
+#search_logo{
+	margin-left: 130px;
+}
+
+/* input text box */
+#q{
+	width: 500px;
+	padding: 12px;
+	box-shadow: 0 4px 2px 0px gray;
+	background: url(../images/mic.png) no-repeat 490px 4px;
+}
+
+/* Search button div */
+#search_buttons{
+	margin-left: 130px;
+	margin-top: 30px;
+}
+
+/*  Search button hover */
+#search_button:hover{
+	border: 1px solid #d3d3d3;
+}
+
+/* Lucky button hover */
+#lucky_button:hover{
+	border: 1px solid #d3d3d3;
+}
+
+/* Search Button */
+#search_button{
+	font-size: 13px;
+    font-weight: bold;
+	font-family: arial,sans-serif;
+	border: 1px solid #f2f2f2;
+	padding: 10px;
+	background-color:#f2f2f2;
+	color: #757575;
+	margin-right: 5px;
+}
+
+/* Lucky Button */
+#lucky_button{
+	font-size: 13px;
+    font-weight: bold;
+	font-family: arial,sans-serif;
+	border: 1px solid #f2f2f2;
+	padding: 10px;
+	background-color:#f2f2f2;
+	color: #757575;
+}
+
+/* Footer */
+#footer{
+	background-color:#f2f2f2;
+	width:100%;
+	position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* Left footer */
+#footer_left{
+	padding:10px 10px 10px 30px;
+	float: left;
+}
+
+/* Left footer a */
+#footer #footer_left a{
+	text-decoration: none;
+	margin-right: 15px;
+	color: #666;
+}
+
+/* Left footer a:hover */
+#footer #footer_left a:hover{
+	text-decoration: underline;
+}
+
+/* Right footer a */
+#footer #footer_right a{
+	text-decoration: none;
+	margin-left: 15px;
+	color: #666;
+}
+
+/* Right footer hover */
+#footer #footer_right a:hover{
+	text-decoration: underline;
+}
+
+/* Right footer */
+#footer_right{
+	padding:10px 30px 10px 10px;
+	float: right;
+}
+
+/* Error */
+#error{
+	color:red;
+	font-family: arial,sans-serif;
+	font-size: 13px;
+}
