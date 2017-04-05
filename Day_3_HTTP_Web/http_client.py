@@ -1,6 +1,6 @@
 # http client to consume a public API
 
-from urllib.request import urlopen, Request, HTTPError
+from urllib.request import urlopen, Request, URLError
 import json
 
 def http_client(url):
@@ -11,8 +11,8 @@ def http_client(url):
         response = urlopen(request)
         output = json.loads(response.read().decode('utf-8'))
         
-    except HTTPError as error:
-        return 'Error connecting to the API:', error
+    except URLError as error:
+        return {"Error" : str(error)}
         
     else:
         return output['city']['country']
