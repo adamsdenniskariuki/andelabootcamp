@@ -1,5 +1,8 @@
 def words(word):
 
+	if(isinstance(word, str) == False):
+		return "input must be a string"
+
 	list_of_words = [int(i) if i.isdigit() else i for i in word.split()]
 	list_of__unique_words = list(set(list_of_words))
 	out = {}
@@ -13,4 +16,4 @@ def words(word):
 
 	return out
 
-print (words("testing 1\t2 testing"))
+print (words("hello\tworld"))
