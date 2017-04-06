@@ -32,19 +32,19 @@ class BinarySearch(list):
 				if(value > list(self)[index]):
 					#break loop if start = index
 					if(start == index):
-						return {'count' : count - 2, 'index' : -1}
+						return {'count' : 0, 'index' : -1}
 					start = index
 				else:
 					#break loop if end = index
 					if(end == index):
-						return {'count' : count - 2, 'index' : -1}
+						return {'count' : 0, 'index' : -1}
 					end = index
 
-one_to_twenty = BinarySearch(20, 2)
+one_to_twenty = BinarySearch(100, 10)
 
 print(one_to_twenty[0])
 print(one_to_twenty.length)
-print(one_to_twenty.search(40))
+print(one_to_twenty.search(1000))
 
 
 
