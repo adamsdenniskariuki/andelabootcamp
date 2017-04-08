@@ -2,4 +2,4 @@
 
 Repo contains tests from Andela bootcamp 17.
 
-&copy 2017
+(c) 2017
